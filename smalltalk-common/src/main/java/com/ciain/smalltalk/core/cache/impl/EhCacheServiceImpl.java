@@ -109,7 +109,7 @@ public class EhCacheServiceImpl implements CacheService {
      * 设置一个有过期时间的Object类型的缓存,单位秒
      */
     @Override
-    public void setObject(String key, Object value, long timeout) {
+    public void     setObject(String key, Object value, long timeout) {
         Element element = new Element(key, value);
         element.setTimeToLive((int) timeout);
         Cache cache = getCache();
