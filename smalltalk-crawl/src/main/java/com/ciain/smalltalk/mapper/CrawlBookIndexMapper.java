@@ -1,6 +1,6 @@
 package com.ciain.smalltalk.mapper;
 
-import com.java2nb.novel.entity.BookIndex;
+import com.ciain.smalltalk.entity.BookIndex;
 import org.apache.ibatis.annotations.Param;
 
 /**
